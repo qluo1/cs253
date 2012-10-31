@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 #
 #
+import os
 import cgi
 import datetime
 import webapp2
@@ -8,14 +9,11 @@ import webapp2
 from google.appengine.ext import db
 from google.appengine.api import users
 
+from jinja2 import FileSystemLoader,Environment
 
-form = """
-	<form method="post">
-	<textarea style="wide:400px;height: 100px" name="text">%(value)s </textarea>
-	<br>
-	<input type="submit">
-	</form>
-	"""
+ROOT=os.path.dirname(os.path.abspath(__file__))
+
+env = Environment(loader = FileSystemLoader(os.path.join(ROOT,"templates")))
 
 def rot13(s):
 	"""
@@ -47,24 +45,25 @@ class MainPage(webapp2.RequestHandler):
 		text = self.request.get("text")
 		value = rot13(text)
 		self.response.headers['Content Type'] = "text/html"
-		out = form % {"value": cgi.escape(value)}
-		self.response.out.write(out)
+		context = {"value": cgi.escape(value)}
+		temp = env.get_template("unit2.html")
+		self.response.out.write(temp.render(context))
 		
 class Unit2_rot13(webapp2.RequestHandler):
 	def get(self,value=""):
 		self.response.headers['Content Type'] = "text/html"
-		
-		out = form % {"value": cgi.escape("")}
+		context = {"value": ""}
+		temp = env.get_template("unit2.html")
+		self.response.out.write(temp.render(context))	
 
-		self.response.out.write(out)
-	
 	def post(self):
-		
 		text = self.request.get("text")
 		value = rot13(text)
 		self.response.headers['Content Type'] = "text/html"
-		out = form % {"value": cgi.escape(value)}
-		self.response.out.write(out)
+		
+		context = {"value": cgi.escape(value)}
+		temp = env.get_template("unit2.html")
+		self.response.out.write(temp.render(context))
 
 class TestHandler(webapp2.RequestHandler):
 	def post(self):
