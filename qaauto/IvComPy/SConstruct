@@ -1,0 +1,181 @@
+# vim: ft=python
+import glob
+import os
+import sys
+import socket
+
+ROOT    = os.path.dirname(os.path.abspath('__file__'))
+
+BUILD_DIR = os.path.join(ROOT,"build")
+
+from om2_cfg import (
+                     GSLOG_INC,
+                     GSCPPUTIL,
+                     GSVERSION,
+                     GSAUTH_INC,
+                     IVCOM,
+                     IVCOM_INC,IVCOM_EXTINC,
+                     JSON_INC,
+                     PYTHON_INC,PYTHON_LIB,
+                     CXXFLAG_GS,
+                     CCFLAG_GS,
+                     LIBPATHS,
+                     BOOST_INC,
+                     CURL_INC,
+                     PCRE_INC,
+                     GSLOG,
+                     )
+
+## -------------- compile gscpputil, gslog, ivcom,ivcompy -----------------
+env = Environment(CCFLAGS=CCFLAG_GS,CXXFLAGS=CXXFLAG_GS,
+                  CPPPATH=[GSVERSION,
+                           GSCPPUTIL,
+                           GSLOG_INC,IVCOM_INC,IVCOM_EXTINC,
+                           GSAUTH_INC,
+                           CURL_INC,JSON_INC,
+                           BOOST_INC,PCRE_INC,PYTHON_INC,]
+                  )
+
+src_gslog = glob.glob(GSLOG+"/*.c") + glob.glob(GSLOG+"/*.C")
+## ignore
+src_gslog = [i for i in src_gslog if not (i.endswith("gslog_stub.c") or
+                                          i.endswith("GSLogUtil.C")
+                                          )]
+obj_gslog=[]
+## collect target for both .C and .c
+for o in src_gslog:
+    t=o.replace(".C",".c").replace(".c",".o_fpic")
+    obj_gslog.append(os.path.join(BUILD_DIR,t.split("/")[-1]))
+
+## compile objects
+for o,s in zip(obj_gslog,src_gslog):
+    env.SharedObject(target=o,source=s)
+
+## compile gscpputil
+src_gscpputil = glob.glob(GSCPPUTIL + "/*.cpp")
+obj_gscpputil = []
+
+## collect  target
+for o in src_gscpputil:
+    t=o.replace(".cpp",".o_fpic")
+    obj_gscpputil.append(os.path.join(BUILD_DIR,t.split("/")[-1]))
+
+## compile objects
+for o,s in zip(obj_gscpputil,src_gscpputil):
+    env.Object(target=o, source=s)
+    env.SharedObject(target=o,source=s)
+
+## ------------------ build ivcom -----------------------------
+## IVCOM compilation info
+env.Append(CPPDEFINES=['\'IVCOM_CURRENT_USER="luosam"\'',
+                       '\'IVCOM_CURRENT_HOST="%s"\'' % socket.gethostname() ,
+                       '\'IVCOM_CURRENT_DIRECTORY="%s"\''% BUILD_DIR,
+                       '\'IVCOM_CURRENT_ARCH="linux6_64"\''],
+                       )
+
+## generate IvComCompiledInTables.cpp
+gen_cpp = os.path.join(BUILD_DIR,"IvComCompiledInTables.cpp")
+def generate(target,source,env):
+    """
+        ivcom generate  catalog into CPP
+    """
+    paths = [os.path.join(IVCOM,"..","utilities"),os.path.join(IVCOM,"..","config")]
+    sys.path += paths
+
+    from codeGenerator import outputCompiledInTableCPP
+    # set output, required by codeGenerator.py
+    if len(sys.argv) == 1:
+        sys.argv.append(target[0].abspath)
+    else:
+        sys.argv.insert(1,target[0].abspath)
+    outputCompiledInTableCPP("IvCom",source[0].abspath,"basecatalog")
+    ## cleanup
+    del sys.argv[1]
+
+## run generator
+env.Command(gen_cpp,os.path.join(IVCOM,"..","config","catalog.py"),generate)
+
+####################### IVCOM ########################################
+## collect ivcom, exclude build error files
+src_ivcom = glob.glob(IVCOM + "/*.cpp")
+src_ivcom = [i for i in src_ivcom if not (i.endswith("IvComRowImpl.cpp") or i.endswith("IvComEnumSynchronizationServiceHelper.cpp"))]
+## include gsversion
+src_ivcom.append(os.path.join(GSVERSION,"GsComponentVersions.cpp"))
+## include generated cpp
+src_ivcom.append(gen_cpp)
+
+## compile ivcom
+obj_ivcom   = []
+## collect target for ivcom 
+for o in src_ivcom:
+    t=o.replace(".cpp",".o_fpic")
+    obj_ivcom.append(os.path.join(BUILD_DIR,t.split("/")[-1]))
+
+## compile objects
+for o,s in zip(obj_ivcom,src_ivcom):
+    env.SharedObject(target=o,source=s)
+
+## IvComPy
+src_ivpy= [
+      "src/IvComPyManager.cpp",
+      "src/IvComPyClient.cpp",
+      "src/IvComPyDssClient.cpp",
+      "src/IvComPyDict.cpp",
+      "src/IvComPy.cpp",
+      "src/IvComPySvrClient.cpp",
+      "src/IvComPyServer.cpp",
+      "src/IvComPyImgLiveClient.cpp",
+      "src/python_parser.cpp",
+      ]
+obj_ivpy = []
+
+## collect target for both src
+for s in src_ivpy:
+    t=s.replace(".cpp",".o_fpic")
+    obj_ivpy.append(os.path.join(BUILD_DIR,t.split("/")[-1]))
+
+## compile objects
+for o,s in zip(obj_ivpy,src_ivpy):
+    env.SharedObject(target=o,source=s)
+env_ivpy = env.Clone(
+                  LIBPATH=LIBPATHS,
+                  RPATH=LIBPATHS,
+                  LIBS = [
+                         'pcre',
+                         "uuid",
+                         "rt",
+                         "dl",
+                         "gsauthn",
+                         "json_linux-gcc-4.4.7_libmt",
+                         "python2.7",
+                         "boost_python-mt",
+                         ]
+                  )
+libivcompy_so = env_ivpy.SharedLibrary(target="IvComPy",source=obj_ivpy + obj_ivcom + obj_gscpputil + obj_gslog,LIBPREFIX="")
+
+## test program
+#env.Program(target="logreader",source="src/LogReader.cpp")
+#env.Program(target="testboost",source="tests/test_boost.cpp")
+#env.SharedLibrary(target="example",source="tests/test_boostpy.cpp",LIBPREFIX="")
+
+################ ivcom examples ####################
+#src_dsssvr = os.path.join("imglive","ExampleIvComDatastreamServer.cpp")
+#src_dsscli = os.path.join("imglive", "ExampleIvComDatastreamClient.cpp")
+#
+#src_dsssvr_persist = os.path.join("imglive","ExampleIvComDatastreamServerWithPersistence.cpp")
+#src_dssimagesvr = os.path.join("imglive","ExampleIvComImageLiveServer.cpp")
+#src_dssimagedynsvr = os.path.join("imglive","ExampleIvComImageLiveDynamicServer.cpp")
+#src_dssimagecli = os.path.join("imglive","ExampleIvComImageLiveClient.cpp")
+#
+#src_req_int = [os.path.join(IVCOM,"..","examples",i) for i in ('ExampleIvComInteractiveRequestClient.cpp', 'Screen.cpp', 'LogRedirector.cpp')]
+#src_img_int = [os.path.join(IVCOM,"..","examples",i) for i in ('ExampleIvComInteractiveImageLiveClient.cpp', 'Screen.cpp', 'LogRedirector.cpp')]
+#
+### 
+#env.Program(target="dssimageliveServer",source=src_dssimagesvr)
+#env.Program(target="dssimageliveDynamicServer",source=src_dssimagedynsvr)
+#env.Program(target="dssimageliveClient",source=src_dssimagecli)
+### build interactive examples
+#env.Append(CPPPATH=os.path.join(IVCOM,"..","examples"),LIBS=['ncurses'])
+##env.Program(target="interactiveRequestClient",source=src_req_int)
+##env.Program(target="interactiveimageliveClient",source=src_req_int)
+ 

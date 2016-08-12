@@ -1,0 +1,4 @@
+export BASE_DIR=/local/data/home/eqtdata/sandbox/luosam/works/projects/QA/RaptorTest
+export GNS_PYTHON=/gns/mw/lang/python/python-2.7.2-gns.03/bin/python
+export SETTINGS_MODULE=config.HK_Raptor
+

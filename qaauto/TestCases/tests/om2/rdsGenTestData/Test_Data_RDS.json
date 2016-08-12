@@ -1,0 +1,2113 @@
+{
+    "bucket_xref_gpr": [
+        {
+            "accountSynonym": "GPR", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "GPR", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "GPR", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "P", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "GPR", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "GPR", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "1111", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "bucket_xref_gsv": [
+        {
+            "accountSynonym": "GSV", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "GSV", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "GSV", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "A", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "GSV", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "4455", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "GSV", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "oeid": [
+        {
+            "accountSynonym": "1001", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "2833", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1001", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "1", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1001", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "P", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1001", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "1001", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1001", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "1343", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "oeid_a": [
+        {
+            "accountSynonym": "1001A", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "2691", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1001A", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "1", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1001A", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "A", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1001A", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "1001A", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1001A", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_oeid_asx": [
+        {
+            "accountSynonym": "1002", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "3705", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1002", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "1002", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1002", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "1", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1002", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "A", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1002", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "ASXDirect", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1002", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "3019", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_oeid_asxonly": [
+        {
+            "accountSynonym": "1003", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "2969", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1003", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "1003", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1003", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1003", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "A", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1003", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "ASXOnly", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1003", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "1271", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_oeid_bp": [
+        {
+            "accountSynonym": "1004", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "3414", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1004", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "1004", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1004", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "1", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1004", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "A", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1004", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "BestPrice", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1004", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "2625", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_oeid_bpmq": [
+        {
+            "accountSynonym": "1005", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "4833", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1005", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "1005", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1005", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1005", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "P", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1005", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "BestPriceMinQty", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1005", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "3300", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_oeid_bpmqnolit": [
+        {
+            "accountSynonym": "1007", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "3458", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1007", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "1007", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1007", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1007", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "A", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1007", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "BestPriceMinQtyNoLit", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1007", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "2239", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_oeid_bpmqnolituni": [
+        {
+            "accountSynonym": "1008", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "3335", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1008", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "1008", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1008", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "1", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1008", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "A", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1008", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "BestPriceMinQtyNoLitUni", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1008", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "3094", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_oeid_bpmquni": [
+        {
+            "accountSynonym": "1006", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "2425", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1006", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "1006", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1006", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1006", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "P", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1006", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "BestPriceMinQtyUni", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1006", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "2291", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_oeid_bpmv": [
+        {
+            "accountSynonym": "1009", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "1144", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1009", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "1009", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1009", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "1", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1009", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "A", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1009", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "BestPriceMinValue", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "1009", 
+            "accountSynonymType": "CLIENT_OE_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "4038", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_starid_asx": [
+        {
+            "accountSynonym": "2002", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "2795", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2002", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "4838", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2002", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2002", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "P", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2002", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "ASXDirect", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2002", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "4505", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_starid_asxonly": [
+        {
+            "accountSynonym": "2003", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "2916", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2003", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "3363", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2003", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "1", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2003", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "P", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2003", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "ASXOnly", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2003", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "4189", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_starid_bp": [
+        {
+            "accountSynonym": "2004", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "4506", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2004", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "4004", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2004", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "1", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2004", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "P", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2004", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "BestPrice", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2004", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "4719", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_starid_bpmq": [
+        {
+            "accountSynonym": "2005", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "3131", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2005", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "4388", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2005", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2005", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "P", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2005", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "BestPriceMinQty", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2005", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "1882", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_starid_bpmqnolit": [
+        {
+            "accountSynonym": "2007", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "1565", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2007", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "3505", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2007", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2007", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "A", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2007", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "BestPriceMinQytNoLit", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2007", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "1271", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_starid_bpmqnolituni": [
+        {
+            "accountSynonym": "2008", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "1694", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2008", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "1130", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2008", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "1", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2008", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "P", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2008", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "BestPriceMinQtyNolitUni", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2008", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "1902", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_starid_bpmquni": [
+        {
+            "accountSynonym": "2006", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "1684", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2006", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "1032", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2006", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "1", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2006", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "P", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2006", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "BestPriceMinQtyUni", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2006", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "3685", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_starid_bpmv": [
+        {
+            "accountSynonym": "2009", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "2273", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2009", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "1041", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2009", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2009", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "P", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2009", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "BestPriceMinValue", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2009", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "4154", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_tam_bpmq": [
+        {
+            "accountSynonym": "TAMSAMBP", 
+            "accountSynonymType": "ACCOUNT_NAME_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "2551", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "TAMSAMBP", 
+            "accountSynonymType": "ACCOUNT_NAME_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "2454", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "TAMSAMBP", 
+            "accountSynonymType": "ACCOUNT_NAME_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "TAMSAMBP", 
+            "accountSynonymType": "ACCOUNT_NAME_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "A", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "TAMSAMBP", 
+            "accountSynonymType": "ACCOUNT_NAME_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "BestPriceMinQty", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "TAMSAMBP", 
+            "accountSynonymType": "ACCOUNT_NAME_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "3945", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_xref_asx": [
+        {
+            "accountSynonym": "SAM2", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "2786", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM2", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "4995", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM2", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "1", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM2", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "A", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM2", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "ASXDirect", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM2", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "1003", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_xref_asxonly": [
+        {
+            "accountSynonym": "SAM3", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "4581", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM3", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "2739", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM3", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "1", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM3", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "A", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM3", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "ASXOnly", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM3", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "1003", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_xref_bp": [
+        {
+            "accountSynonym": "SAM4", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "1525", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM4", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "1067", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM4", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM4", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "P", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM4", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "BestPrice", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM4", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "1003", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_xref_bpmq": [
+        {
+            "accountSynonym": "SAM5", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "4789", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM5", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "3747", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM5", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM5", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "A", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM5", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "BestPriceMinQty", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM5", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "1003", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_xref_bpmqnolit": [
+        {
+            "accountSynonym": "SAM7", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "1638", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM7", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "2394", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM7", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM7", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "A", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM7", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "BestPriceMinQtyNoLit", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM7", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "1003", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_xref_bpmqnolituni": [
+        {
+            "accountSynonym": "SAM8", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "4376", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM8", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "2990", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM8", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM8", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "A", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM8", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "BestPriceMinQtyNoLitUni", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM8", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "4719", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_xref_bpmquni": [
+        {
+            "accountSynonym": "SAM6", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "4584", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM6", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "1331", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM6", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM6", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "A", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM6", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "BestPriceMinQtyUni", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM6", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "1003", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "si_xref_bpmv": [
+        {
+            "accountSynonym": "SAM9", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "1359", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM9", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "4938", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM9", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM9", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "P", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM9", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "SORSTRATEGYOVERRIDE", 
+            "propertyValue": "BestPriceMinValue", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM9", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "1003", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "starid": [
+        {
+            "accountSynonym": "2001T", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "2356", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2001T", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2001T", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "A", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2001T", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "3192", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "2001T", 
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "1062", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "starid_oeid": [
+        {
+            "accountSynonym": "3001T",
+            "accountSynonymType": "STAR_CUSTOMER_ID_AST",
+            "instrumentClass": "UNKNOWN_IC",
+            "instrumentSubClass": "UNKNOWN_ISC",
+            "market": "SYDE",
+            "propertyName": "GSOEALIAS",
+            "propertyValue": 1001,
+             "serviceOfferingEnum": "INSTITUTIONAL_SO",
+             "subMarket": "N/A"
+         }
+		],
+    "tam": [
+        {
+            "accountSynonym": "TAMSAM", 
+            "accountSynonymType": "ACCOUNT_NAME_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "1982", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "TAMSAM", 
+            "accountSynonymType": "ACCOUNT_NAME_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "TAMSAM", 
+            "accountSynonymType": "ACCOUNT_NAME_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "A", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "TAMSAM", 
+            "accountSynonymType": "ACCOUNT_NAME_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "2143", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "TAMSAM", 
+            "accountSynonymType": "ACCOUNT_NAME_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "3849", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ], 
+    "xref": [
+        {
+            "accountSynonym": "SAM", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICINTERMEDIARYID", 
+            "propertyValue": "3949", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICWHOLESALEINDICATOR", 
+            "propertyValue": "0", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "PARTICIPANTCAPACITY", 
+            "propertyValue": "P", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "ASICORIGINOFORDER", 
+            "propertyValue": "2740", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }, 
+        {
+            "accountSynonym": "SAM", 
+            "accountSynonymType": "IOS_ACCOUNT_AST", 
+            "instrumentClass": "UNKNOWN_IC", 
+            "instrumentSubClass": "UNKNOWN_ISC", 
+            "market": "SYDE", 
+            "propertyName": "UCPKEY", 
+            "propertyValue": "1003", 
+            "serviceOfferingEnum": "INSTITUTIONAL_SO", 
+            "subMarket": "N/A"
+        }
+    ]
+}

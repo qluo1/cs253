@@ -1,0 +1,10 @@
+#!/bin/bash
+export BIN_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+export RUNNER_DIR=testRunner
+cd "$BIN_DIR/.." # should be "teststuff"
+. $RUNNER_DIR/setup/testRunner.env
+. $SAMSAM_BIN/bin/activate
+echo "testRunner starting with parameters [$*] on `date`"
+mkdir -p $SAMSAM/TestCases/testRunner/log
+$RUNNER_DIR/testRunner.pl "$@" > $SAMSAM/TestCases/testRunner/log/testRunner.$1.$2.`date +'%Y-%m-%d--%H-%M-%S'` 2>&1
+echo "testRunner finished with status [$?], parameters [$*] on `date`"

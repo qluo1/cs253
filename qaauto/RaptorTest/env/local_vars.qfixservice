@@ -1,0 +1,5 @@
+export BASE_DIR=/home/eqtdata/sandbox/zhaoer/RaptorTest
+export GNS_PYTHON=/gns/mw/lang/python/python-2.7.2-gns.03/bin/python
+export SETTINGS_MODULE=config.HK_Raptor
+export ZCMD_ROOT_PATH=/home/zhaoer/sandbox/raptor_new/ert/install/ert_tmpdir/staging.x86_64.rhel6/gs-eq-oma-instance-qa_raptor_hkg_a-qa-HEAD-rhel6_64b-primary/scripts
+

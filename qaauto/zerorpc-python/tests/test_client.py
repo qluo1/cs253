@@ -1,0 +1,89 @@
+# -*- coding: utf-8 -*-
+# Open Source Initiative OSI - The MIT License (MIT):Licensing
+#
+# The MIT License (MIT)
+# Copyright (c) 2015 François-Xavier Bourlet (bombela+zerorpc@gmail.com)
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy of
+# this software and associated documentation files (the "Software"), to deal in
+# the Software without restriction, including without limitation the rights to
+# use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+# of the Software, and to permit persons to whom the Software is furnished to do
+# so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
+
+import gevent
+
+import zerorpc
+from testutils import teardown, random_ipc_endpoint
+
+def test_client_connect():
+    endpoint = random_ipc_endpoint()
+
+    class MySrv(zerorpc.Server):
+
+        def lolita(self):
+            return 42
+
+        def testargs(self,name):
+            assert name
+            return name
+
+        def testkwargs(self,arg,**kw):
+            assert arg
+            assert kw
+            return kw
+
+        def testkwargs_dict(self,**kw):
+
+            assert 'test_dict' in kw
+            assert type(kw['test_dict']) == dict
+            return kw['test_dict']
+
+
+    srv = MySrv()
+    srv.bind(endpoint)
+    gevent.spawn(srv.run)
+
+    client = zerorpc.Client()
+    client.connect(endpoint)
+
+    assert client.lolita() == 42
+
+    assert client.testargs("hello") == "hello"
+
+    order = dict(name="name",test="test")
+    assert client.testkwargs(23,**order) == order
+
+
+    ## test kwargs as embedded dict
+    order = dict(name="name",test="test",test_dict={'hello':'world'})
+    assert client.testkwargs_dict(**order)
+
+
+def test_client_quick_connect():
+    endpoint = random_ipc_endpoint()
+
+    class MySrv(zerorpc.Server):
+
+        def lolita(self):
+            return 42
+
+    srv = MySrv()
+    srv.bind(endpoint)
+    gevent.spawn(srv.run)
+
+    client = zerorpc.Client(endpoint)
+
+    assert client.lolita() == 42
