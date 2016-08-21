@@ -1,2 +1,0 @@
-Client,Exchange,SecurityType,MaxNV,MaxDailyValue,MinNetValue,MaxNetValue,BuyRestricted,SellRestricted,ShortRestricted,ShortExemptRestricted,MktDataUnavail,MaxOrders,PriceRangePct,PriceRangeTicks,ShortLocate
-11333292C,XHKG,CS,8021188,1893000513,-80211886,80211886,N,N,N,Y,Y,0,30.0,25.0,N
